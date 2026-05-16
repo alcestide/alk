@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #000000;
+  --color-text: #e8e8e8;
+  --color-secondary: #888;
+  --color-accent: #c4b4e0;
+  --color-border: #1e1e1e;
+  --color-surface: #161616;
+  --color-dim: #555;
+  --transition: 0.2s;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #f5f3ef;
+    --color-text: #1a1a1a;
+    --color-secondary: #71717a;
+    --color-accent: #9b8ab8;
+    --color-border: #ddd;
+    --color-surface: #eae8e3;
+    --color-dim: #a1a1aa;
+  }
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+html, body {
+  height: 100dvh;
+  margin: 0;
+  background-color: var(--color-bg);
+}
+
+html.no-scroll, html.no-scroll body {
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  color: var(--color-text);
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: tabular-nums;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.serif { font-family: var(--font-eb-garamond), "Georgia", "Times New Roman", serif; }
+.mono { font-family: "SF Mono", "Geist Mono", ui-monospace, monospace; }
+.accent { color: var(--color-accent); }
+.dim { color: var(--color-secondary); }
+.italic-bold { font-style: italic; font-weight: 600; }
+
+.underline-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--color-dim);
+  transition: text-decoration-color var(--transition);
+}
+
+.underline-link:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+@keyframes reveal {
+  from { opacity: 0; filter: blur(6px); }
+  to { opacity: 1; filter: blur(0px); }
+}
+
+.reveal { opacity: 0; animation: reveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.reveal-d1 { animation-delay: 0.1s; }
+.reveal-d2 { animation-delay: 0.2s; }
+.reveal-d3 { animation-delay: 0.35s; }
