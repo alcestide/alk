@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eebe6962-ff00-44b9-9c9a-9b6bc93e20a1" name="Changes" comment="feat: clean slate" />
+    <list default="true" id="eebe6962-ff00-44b9-9c9a-9b6bc93e20a1" name="Changes" comment="feat: landpage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +34,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/alcestide/alksite.git&quot;,
-    &quot;accountId&quot;: &quot;65eadb48-aec9-4569-ac17-81457b0a10a8&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:alcestide/alk",
+    "accountId": "65eadb48-aec9-4569-ac17-81457b0a10a8"
   }
-}</component>
+}]]></component>
   <component name="NamedScopeManager">
     <scope name="Unnamed" pattern="" />
   </component>
@@ -201,15 +201,7 @@
       <workItem from="1778878560552" duration="4249000" />
       <workItem from="1778917852507" duration="2214000" />
       <workItem from="1778920121300" duration="70000" />
-      <workItem from="1778920247951" duration="6496000" />
-    </task>
-    <task id="LOCAL-00031" summary="[Testing]: new Animation (2)">
-      <option name="closed" value="true" />
-      <created>1754566392039</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1754566392039</updated>
+      <workItem from="1778920247951" duration="7106000" />
     </task>
     <task id="LOCAL-00032" summary="[Testing]: fontweight">
       <option name="closed" value="true" />
@@ -595,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778879066233</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat: landpage">
+      <option name="closed" value="true" />
+      <created>1778927073657</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1778927073657</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Edit]: Remove Gallery" />
     <MESSAGE value="[Term] Removing some log lines" />
     <MESSAGE value="Reordering paragraphs" />
     <MESSAGE value="Further edits to paragraph content" />
@@ -657,6 +656,7 @@
     <MESSAGE value="Remove pageselector" />
     <MESSAGE value="fix(navbar): link to tg channel" />
     <MESSAGE value="feat: clean slate" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: clean slate" />
+    <MESSAGE value="feat: landpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: landpage" />
   </component>
 </project>
