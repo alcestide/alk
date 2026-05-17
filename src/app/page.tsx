@@ -13,11 +13,12 @@ const LINKS = [
 ];
 
 const IMAGES = [
-    { src: "https://i.pinimg.com/1200x/02/b6/11/02b6117e4847c1ab5425a19f66b7e6bb.jpg", alt: "Stimulus 1" },
-    { src: "https://i.pinimg.com/736x/1f/3c/b1/1f3cb118c490b7de57aedfd1ee6e16b3.jpg", alt: "Stimulus 2" },
-    { src: "https://i.pinimg.com/736x/4d/8b/03/4d8b03d0b967bd6fab9aed12df863344.jpg", alt: "Stimulus 3" },
-    { src: "https://i.pinimg.com/736x/36/2b/28/362b281c534c40eaddd03116c64f9ae7.jpg", alt: "Stimulus 4" },
-    { src: "https://i.pinimg.com/1200x/6c/07/a7/6c07a71d58285a3093e67c408cab86e8.jpg", alt: "Stimulus 5" },
+    { src: "https://i.pinimg.com/736x/1f/3c/b1/1f3cb118c490b7de57aedfd1ee6e16b3.jpg", alt: "Stimulus 1" },
+    { src: "https://i.pinimg.com/736x/6a/28/af/6a28af37d5027566fc495f36e542fed5.jpg", alt: "Stimulus 2" },
+    { src: "https://i.pinimg.com/736x/0e/b4/3c/0eb43c68dfadb08e1fe4fda35294fe99.jpg", alt: "Stimulus 3" },
+    { src: "https://i.pinimg.com/736x/e8/7b/af/e87baffc7581e1477da287e11a429c95.jpg", alt: "Stimulus 4" },
+    { src: "https://i.pinimg.com/736x/bd/d3/19/bdd319feedf8fd013280e88055896619.jpg", alt: "Stimulus 5" },
+    { src: "https://i.pinimg.com/originals/2b/ca/36/2bca361b80ce7bc23077f53563858a88.png", alt: "Stimulus 6" },
 ];
 
 export default function Home() {

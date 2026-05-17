@@ -32,21 +32,28 @@ export const metadata: Metadata = {
     openGraph: {
         title: "alcestide",
         description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
-        images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+        images: [{ url: "/image.png", width: 1200, height: 630 }],
     },
     twitter: {
         card: "summary_large_image",
         title: "alcestide",
         description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
-        images: ["/og-image.png"],
+        images: ["/image.png"],
     },
     icons: {
-        icon: [{ url: "/logo-white.svg", type: "image/svg+xml" }],
-        apple: [{ url: "/logo-white.svg" }],
-    },
-    appleWebApp: {
-        capable: true,
-        statusBarStyle: "black-translucent",
+        icon: [
+            {
+                url: "/favicon-light.ico",
+                media: "(prefers-color-scheme: light)",
+            },
+            {
+                url: "/favicon-dark.ico",
+                media: "(prefers-color-scheme: dark)",
+            },
+        ],
+        apple: [
+            { url: "/favicon-light.ico" }
+        ],
     },
 };
 
