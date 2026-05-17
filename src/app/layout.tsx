@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
     title: {
-        default: "alcestide",
+        default: "Alcestide",
         template: "%s - alcestide",
     },
     description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
