@@ -62,19 +62,28 @@ export default function Home() {
                 style={{"--bio-w": bioWidth ? `${bioWidth}px` : undefined} as React.CSSProperties}
             >
                 <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em] mb-4">
-                    Tech junkie from Italy with a weakness for{" "}
-                    <em className="font-semibold">system programming</em>,{" "}
-                    <em className="font-semibold">operating systems</em> and{" "}
+                    Tech junkie with a weakness for {" "}
+                    <em className="font-semibold">low-level development</em>,{" "}
+                    <em className="font-semibold">operating systems</em> and {" "}
                     <em className="font-semibold">computer graphics</em>.
+
                 </p>
                 <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em]">
-                    Currently working as a{" "}
-                    <b className="font-semibold">DevOps Engineer</b>{" "}
-                    and building software in my free time.
+                    I also enjoy writing {" "}
+                    <em className="font-semibold">articles</em> and{" "}
+                    <em className="font-semibold">poetry</em>,
+                    and I'm deeply fond of{" "}
+                    <em className="font-semibold">books</em>,{" "}
+                    <em className="font-semibold">videogames</em>,{" "}
+                    and niche{" "}
+                    <em className="font-semibold">perfumes</em>.{" "}
+
+                    Feel free to {" "}
+                    <em className="font-semibold">explore</em>.
                 </p>
 
                 <div className="mt-8">
-                    <Link
+                <Link
                         href="/blog"
                         prefetch={false}
                         className="group inline-flex flex-col items-start gap-1"
