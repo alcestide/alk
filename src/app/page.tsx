@@ -68,6 +68,7 @@ export default function Home() {
                     <em className="font-semibold">computer graphics</em>.
 
                 </p>
+
                 <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em]">
                     I also enjoy writing {" "}
                     <em className="font-semibold">articles</em> and{" "}
@@ -77,13 +78,17 @@ export default function Home() {
                     <em className="font-semibold">videogames</em>,{" "}
                     and niche{" "}
                     <em className="font-semibold">perfumes</em>.{" "}
+                </p>
 
+                <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em]">
                     Feel free to {" "}
+
                     <em className="font-semibold">explore</em>.
                 </p>
 
+
                 <div className="mt-8">
-                <Link
+                    <Link
                         href="/blog"
                         prefetch={false}
                         className="group inline-flex flex-col items-start gap-1"
