@@ -1,6 +1,10 @@
 # alk
 
-Built with Next.js 16, React 19, and Tailwind CSS v4.
+Built with Next.js 16, React 19, and Tailwind CSS v4. 
+
+Hosted on https://alcestide.com.
+
+## Installation
 
 This project uses Bun for package management and script execution.
 
@@ -12,7 +16,7 @@ Run the local development server with Turbopack enabled:
 ```bash
 bun dev
 ```
-### Dependencies
+## Dependencies
 
 ```json
 "dependencies": {
