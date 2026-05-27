@@ -13,12 +13,12 @@ const LINKS = [
 ];
 
 const IMAGES = [
-    { src: "https://i.pinimg.com/736x/1f/3c/b1/1f3cb118c490b7de57aedfd1ee6e16b3.jpg", alt: "Stimulus 1" },
-    { src: "https://i.pinimg.com/736x/6a/28/af/6a28af37d5027566fc495f36e542fed5.jpg", alt: "Stimulus 2" },
-    { src: "https://i.pinimg.com/736x/0e/b4/3c/0eb43c68dfadb08e1fe4fda35294fe99.jpg", alt: "Stimulus 3" },
-    { src: "https://i.pinimg.com/736x/e8/7b/af/e87baffc7581e1477da287e11a429c95.jpg", alt: "Stimulus 4" },
-    { src: "https://i.pinimg.com/736x/bd/d3/19/bdd319feedf8fd013280e88055896619.jpg", alt: "Stimulus 5" },
-    { src: "https://i.pinimg.com/originals/2b/ca/36/2bca361b80ce7bc23077f53563858a88.png", alt: "Stimulus 6" },
+    { src: "https://cdn.alcestide.com/stimuli/lily.jpg", alt: "Stimulus 1" },
+    { src: "https://cdn.alcestide.com/stimuli/hands.jpg", alt: "Stimulus 2" },
+    { src: "https://cdn.alcestide.com/stimuli/revs.jpg", alt: "Stimulus 3" },
+    { src: "https://cdn.alcestide.com/stimuli/wired.jpg", alt: "Stimulus 4" },
+    { src: "https://cdn.alcestide.com/stimuli/map.jpg", alt: "Stimulus 5" },
+    { src: "https://cdn.alcestide.com/stimuli/castle.png", alt: "Stimulus 6" },
 ];
 
 export default function Home() {
