@@ -40,11 +40,11 @@ export default async function BlogPost({ params }: BlogPostProps) {
                         {data.title}
                     </h1>
 
-                    <div className="w-12 h-[1px] bg-[var(--color-border)] my-6" />
+                    <div className="w-12 h-[1px] bg-[var(--color-border)] my-6"/>
 
                     <div
-                        className="serif text-[clamp(16px,2.5vw,19px)] leading-[1.6] font-light text-[var(--color-text)] opacity-90 space-y-6 prose"
-                        dangerouslySetInnerHTML={{ __html: htmlContent }}
+                        className="serif text-[clamp(16px,2.5vw,19px)] leading-[1.6] font-light prose max-w-none"
+                        dangerouslySetInnerHTML={{__html: htmlContent}}
                     />
                 </main>
             </div>
