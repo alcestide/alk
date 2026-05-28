@@ -51,7 +51,7 @@ export default function BlogIndex() {
                 <main className="space-y-12">
                     {posts.map((post) => (
                         <article key={post.slug} className="group block">
-                            <Link href={`/blog/${post.slug}`} className="block space-y-2">
+                            <Link href={`/hive/${post.slug}`} className="block space-y-2">
                                 <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
                                     <h2 className="serif text-[clamp(18px,3.5vw,24px)] font-semibold text-white group-hover:text-neutral-400">
                                         {post.title}

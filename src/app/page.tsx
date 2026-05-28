@@ -89,7 +89,7 @@ export default function Home() {
 
                 <div className="mt-8">
                     <Link
-                        href="/blog"
+                        href="/hive"
                         prefetch={false}
                         className="group inline-flex flex-col items-start gap-1"
                     >
