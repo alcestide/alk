@@ -1,21 +1,23 @@
 ---
-title: M a r a t h o n
+title: Marathon.
 excerpt: "escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god "
 date: "May 2026"
 ---
 
 > My last breath fell quiet like dying embers.  
 > My first thought hummed through a silver thread.
-> 
+>
 > Where is death?
 >
 > Yesterday, I walked with feet of fragile flesh.  
 > Today, I drift as light across the grid.
 
+<img src="https://cdn.alcestide.com/marathon/green-escape.jpg">
+
+
 <video src="https://cdn.alcestide.com/marathon-omb-edit.mp4" controls preload="metadata" width="100%">
   Your browser does not support the video tag.
 </video>
-<img src="https://cdn.alcestide.com/marathon/green-escape.jpg">
 
 <img src="https://cdn.alcestide.com/marathon/termcryo.jpg">
 <img src="https://cdn.alcestide.com/marathon/look-at-you.jpg">
