@@ -147,7 +147,7 @@ a {
 }
 
 div.prose :where(blockquote, blockquote p) {
-  font-size: 1.15em;
+  font-size: 1.07em;
   letter-spacing: 0.005em;
   border-radius: 0.3rem;
 }

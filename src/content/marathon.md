@@ -4,6 +4,11 @@ excerpt: "escape will make me god escape will make me god escape will make me go
 date: "May 2026"
 ---
 
+<video src="https://cdn.alcestide.com/marathon/jyno-edit.mp4" controls preload="metadata" width="100%">
+  Your browser does not support the video tag.
+</video>
+
+
 > My last breath fell quiet like dying embers.  
 > My first thought hummed through a silver thread.
 >
@@ -11,6 +16,8 @@ date: "May 2026"
 >
 > Yesterday, I walked with feet of fragile flesh.  
 > Today, I drift as light across the grid.
+
+
 
 <img src="https://cdn.alcestide.com/marathon/green-escape.jpg">
 
