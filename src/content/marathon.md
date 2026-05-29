@@ -1,6 +1,6 @@
 ---
 title: Marathon.
-excerpt: "escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god escape will make me god "
+excerpt: "Escape will make me god."
 date: "May 2026"
 ---
 
