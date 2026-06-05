@@ -1,5 +1,5 @@
 ---
-title: Tetsuo - The Bullet Man.
+title: Tetsuo The Bullet Man.
 excerpt: "Your enemy is in your mind"
 date: "June 2026"
 ---

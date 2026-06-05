@@ -4,6 +4,7 @@ excerpt: "Sui riccioli d'autunno saltellava radioso"
 date: "November 2025"
 ---
 
+<img src="https://cdn.alcestide.com/general/whiterabbit.jpg">
 
 L'autunno posava sfiancato le sue spoglie,
 

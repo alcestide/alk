@@ -4,6 +4,8 @@ excerpt: "Non so cosa sia peggio, non sapere cosa sei ed essere felice, o divent
 date: "December 2025"
 ---
 
+<img src="https://cdn.alcestide.com/general/algernon.jpg">
+
 ## Introduzione superflua
 
 Avevo voglia di entrare in libreria quel giorno.

@@ -4,6 +4,7 @@ excerpt: "Al capriccio di Dio, cheti, ubbidite."
 date: "September 2023"
 ---
 
+<img src="https://cdn.alcestide.com/general/ailanto.jpg">
 
 Al capriccio di Dio, cheti, ubbidite
 

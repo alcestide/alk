@@ -4,6 +4,9 @@ excerpt: "Solchi ritratti da mirabile spiro."
 date: "July 2024"
 ---
 
+<img src="https://cdn.alcestide.com/general/grief.jpg">
+
+
 Solchi ritratti da mirabile spiro,
 
 sospiri spersi entro anfratti larvati,

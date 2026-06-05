@@ -4,6 +4,8 @@ excerpt: "Porto sempre con me un minuscolo taccuino."
 date: "January 2026"
 ---
 
+<img src="https://cdn.alcestide.com/general/corolla.jpg">
+
 Porto sempre con me
 
 un minuscolo taccuino.

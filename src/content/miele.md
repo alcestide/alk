@@ -4,6 +4,8 @@ excerpt: Una puntura sul cuore, un ricamo scucito.
 date: "January 2024"
 ---
 
+<img src="https://cdn.alcestide.com/general/lost.jpg">
+
 Sei cera bollente che marchia i polmoni, cristalli di sale sui tagli dei morti.
 
 Ti scorgo fra l'erba dei campi fioriti, carezzi lo specchio dell'acqua che inondi

@@ -4,6 +4,8 @@ excerpt: 'A stab in my guts, deprives me of a eons-lasting appetite'
 date: "March 2025"
 ---
 
+<img src="https://cdn.alcestide.com/general/wasp.jpg">
+
 A stab in my guts
 
 deprives me of a eons-lasting appetite.
