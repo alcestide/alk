@@ -26,8 +26,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
     const htmlContent = await marked.parse(content);
 
     return (
-        <div className="min-h-[100dvh] flex flex-col items-center justify-start px-[6vw] md:px-[8vw] pt-[10vh] md:pt-[14vh] pb-[8vh] overflow-y-auto">
-            <div className="max-w-[920px] w-full">
+        <div className="min-h-[100dvh] w-full flex flex-col items-center justify-start px-[6vw] md:px-[8vw] pt-[10vh] md:pt-[14vh] pb-[8vh]">
+            <div className="max-w-[920px] w-full reveal">
                 <header className="mb-[6vh] flex items-center justify-between border-b border-[var(--color-border)] pb-4">
                     <Link href="/hive" className="serif text-xs uppercase tracking-widest opacity-50 hover:opacity-100">
                         ← Back to index
