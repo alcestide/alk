@@ -27,7 +27,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
     return (
         <div className="min-h-[100dvh] flex flex-col items-center justify-start px-[6vw] md:px-[8vw] pt-[10vh] md:pt-[14vh] pb-[8vh] overflow-y-auto">
-            <div className="max-w-[700px] w-full">
+            <div className="max-w-[1000px] w-full">
                 <header className="mb-[6vh] flex items-center justify-between border-b border-[var(--color-border)] pb-4">
                     <Link href="/hive" className="serif text-xs uppercase tracking-widest opacity-50 hover:opacity-100">
                         ← Back to index
