@@ -12,18 +12,6 @@
   --transition: 0.2s;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-bg: #f5f3ef;
-    --color-text: #1a1a1a;
-    --color-secondary: #71717a;
-    --color-accent: #9b8ab8;
-    --color-border: #ddd;
-    --color-surface: #eae8e3;
-    --color-dim: #a1a1aa;
-  }
-}
-
 ::selection {
   background: var(--color-accent);
   color: white;
@@ -68,8 +56,22 @@ a {
   transition: text-decoration-color var(--transition);
 }
 
-.underline-link:hover {
-  text-decoration-color: var(--color-accent);
+@media (hover: hover) {
+  .underline-link:hover {
+    text-decoration-color: var(--color-accent);
+  }
+  header a:hover {
+    opacity: 1 !important;
+  }
+}
+
+header a:active {
+  opacity: 1 !important;
+  transition: opacity 0s;
+}
+
+.underline-link:active {
+  text-decoration-color: var(--color-accent) !important;
 }
 
 @keyframes reveal {
@@ -143,11 +145,18 @@ a {
   padding-bottom: 1rem;
   padding-right: 3rem;
   padding-left: 2rem;
-
+  border-radius: 0.3rem;
 }
 
 div.prose :where(blockquote, blockquote p) {
   font-size: 1.07em;
   letter-spacing: 0.005em;
-  border-radius: 0.3rem;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a, button {
+  touch-action: manipulation;
 }
