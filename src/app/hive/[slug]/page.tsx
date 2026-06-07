@@ -1,11 +1,45 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import { Metadata } from "next";
 import matter from "gray-matter";
 import { marked } from "marked";
 
+
 interface BlogPostProps {
     params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: BlogPostProps): Promise<Metadata> {
+    const { slug } = await params;
+    const contentDirectory = path.join(process.cwd(), "src/content");
+    const filePath = path.join(contentDirectory, `${slug}.md`);
+
+    if (!fs.existsSync(filePath)) {
+        return { title: "are you lost?" };
+    }
+
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContents);
+
+    const title = data.title || "unknown";
+    const description = data.excerpt || "empty.";
+
+    return {
+        title,
+        description,
+        openGraph: {
+            title,
+            description,
+            type: "article",
+            publishedTime: data.date,
+        },
+        twitter: {
+            card: "summary",
+            title,
+            description,
+        },
+    };
 }
 
 export default async function BlogPost({ params }: BlogPostProps) {
@@ -16,7 +50,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
     if (!fs.existsSync(filePath)) {
         return (
             <div className="min-h-[100dvh] flex flex-col items-center justify-center font-mono text-xs text-[var(--color-secondary)]">
-                POST_NOT_FOUND // <Link href="/hive" className="underline ml-1 text-[var(--color-text)]">RETURN</Link>
+                ARE YOU LOST? // <Link href="/hive" className="underline ml-1 text-[var(--color-text)]">GO BACK</Link>
             </div>
         );
     }

@@ -10,6 +10,29 @@ interface Post {
     excerpt: string;
 }
 
+export const metadata = {
+    title: "Hive",
+    description: "Cortisol and serotonin",
+    openGraph: {
+        title: "Hive",
+        description: "Cortisol and serotonin",
+        type: "website",
+        images: [
+            {
+                url: "https://cdn.alcestide.com/general/saintjiub.jpeg",
+                width: 1200,
+                height: 630,
+                alt: "Saint Jiub",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary",
+        title: "Hive",
+        description: "Cortisol and serotonin",
+    },
+}
+
 export default function BlogIndex() {
     const contentDirectory = path.join(process.cwd(), "src/content");
     let posts: Post[] = [];
@@ -24,7 +47,7 @@ export default function BlogIndex() {
                 const { data } = matter(fileContent);
                 return {
                     slug: file.replace(".md", ""),
-                    title: data.title || "Untitled Post",
+                    title: data.title || "unknown",
                     date: data.date || "",
                     excerpt: data.excerpt || "",
                 };
