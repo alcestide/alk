@@ -143,9 +143,10 @@ header a:active {
   background-color: rgba(17, 17, 17, 0.36);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 3rem;
+  padding-right: 2rem;
   padding-left: 2rem;
   border-radius: 0.3rem;
+  width: 80%;
 }
 
 div.prose :where(blockquote, blockquote p) {
