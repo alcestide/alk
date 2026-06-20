@@ -13,12 +13,23 @@ const LINKS = [
 ];
 
 const IMAGES = [
-    { src: "https://cdn.alcestide.com/stimuli/lily.jpg", alt: "Stimulus 1" },
-    { src: "https://cdn.alcestide.com/stimuli/hands.jpg", alt: "Stimulus 2" },
-    { src: "https://cdn.alcestide.com/stimuli/revs.jpg", alt: "Stimulus 3" },
-    { src: "https://cdn.alcestide.com/stimuli/wired.jpg", alt: "Stimulus 4" },
-    { src: "https://cdn.alcestide.com/stimuli/map.jpg", alt: "Stimulus 5" },
-    { src: "https://cdn.alcestide.com/stimuli/castle.png", alt: "Stimulus 6" },
+    { src: "https://cdn.alcestide.com/stimuli/lily.jpg", alt: "Lily" },
+    { src: "https://cdn.alcestide.com/stimuli/hands.jpg", alt: "Hands" },
+    { src: "https://cdn.alcestide.com/stimuli/revs.jpg", alt: "Reverie" },
+    { src: "https://cdn.alcestide.com/stimuli/burning1.jpg", alt: "Burning" },
+
+    { src: "https://cdn.alcestide.com/stimuli/wired.jpg", alt: "Wired" },
+    { src: "https://cdn.alcestide.com/stimuli/helter.jpg", alt: "Helter Skelter" },
+    { src: "https://cdn.alcestide.com/stimuli/siltstrider.jpg", alt: "Silt Strider" },
+
+    { src: "https://cdn.alcestide.com/stimuli/map.jpg", alt: "Map" },
+    { src: "https://cdn.alcestide.com/stimuli/kotoko.jpg", alt: "Kotoko" },
+
+    { src: "https://cdn.alcestide.com/stimuli/shoplifters.jpg", alt: "Shoplifters" },
+    { src: "https://cdn.alcestide.com/stimuli/ixtab.jpg", alt: "Ixtab" },
+    { src: "https://cdn.alcestide.com/stimuli/perfectdays.jpeg", alt: "Perfect Days" },
+
+
 ];
 
 export default function Home() {
@@ -62,28 +73,11 @@ export default function Home() {
                 style={{"--bio-w": bioWidth ? `${bioWidth}px` : undefined} as React.CSSProperties}
             >
                 <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em] mb-4">
-                    Tech junkie with a weakness for {" "}
-                    <em className="font-semibold">low-level development</em>,{" "}
-                    <em className="font-semibold">operating systems</em> and {" "}
-                    <em className="font-semibold">computer graphics</em>.
-
-                </p>
-
-                <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em]">
-                    I also enjoy writing {" "}
-                    <em className="font-semibold">articles</em> and{" "}
-                    <em className="font-semibold">poetry</em>,
-                    and I'm deeply fond of{" "}
-                    <em className="font-semibold">books</em>,{" "}
-                    <em className="font-semibold">videogames</em>,{" "}
-                    and niche{" "}
-                    <em className="font-semibold">perfumes</em>.{" "}
-                </p>
-
-                <p className="serif text-[clamp(20px,4.5vw,34px)] leading-[1.4] tracking-[-0.01em]">
-                    Feel free to {" "}
-
-                    <em className="font-semibold">explore</em>.
+                    I emptied my soul out into a vast marsh of rotten flesh, tears streaming down my face.
+                    Through the haze, I saw a creature - born neither of light nor of darkness.
+                    With a single, fleeting glance, it felt the depth of my desperation.
+                    It spoke to me of immense green valleys, purple skies, and flowers so breathtaking you could lose
+                    yourself forever in the swirl of their petals.
                 </p>
 
 

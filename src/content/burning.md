@@ -1,7 +1,7 @@
 ---
 title: Burning
 excerpt: "Sometimes I burn down greenhouses. I choose an abandoned greenhouse and set it on fire. You can make it disappear... as if it never existed."
-date: "19 June 2026"
+date: "18 June 2026"
 ---
 
 <blockquote>
