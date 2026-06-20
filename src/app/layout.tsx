@@ -24,20 +24,20 @@ export const metadata: Metadata = {
         default: "Alcestide",
         template: "%s - alcestide",
     },
-    description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
+    description: "It spoke to me of immense green valleys, purple skies, and flowers so breathtaking you could lose yourself forever in the swirl of their petals.",
     metadataBase: new URL("https://alcestide.com"),
     alternates: {
         canonical: "/",
     },
     openGraph: {
         title: "alcestide",
-        description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
+        description: "It spoke to me of immense green valleys, purple skies, and flowers so breathtaking you could lose yourself forever in the swirl of their petals.",
         images: [{ url: "/image.png", width: 1200, height: 630 }],
     },
     twitter: {
         card: "summary_large_image",
         title: "alcestide",
-        description: "Tech junkie from Italy with a weakness for system programming, operating systems and computer graphics.",
+        description: "It spoke to me of immense green valleys, purple skies, and flowers so breathtaking you could lose yourself forever in the swirl of their petals.",
         images: ["/image.png"],
     },
     icons: {
