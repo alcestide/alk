@@ -4,6 +4,9 @@ excerpt: "Una letterina al nostro Momonga, il gattino più buono e bello del mon
 date: "30 June 2026"
 ---
 
+<img src="https://cdn.alcestide.com/momo/momo-6.jpg" style="width: 80%">
+
+
 Mio dolce Momo, gli ultimi giorni sono stati davvero, davvero difficili. 
 Faccio ancora molta fatica anche solo ad accettare ciò che è successo.
 Devo confessare che non piangevo così tanto da tanti anni, da quando è morta mia madre. 
@@ -37,3 +40,15 @@ La mia unica speranza è di essere riusciti a farti sentire completamente al sic
 Ti meritavi il mondo, e io ho cercato di dartelo. Grazie per tutto l'amore che ci hai donato e per averci migliorato la vita. 
 
 Riposa in pace, piccolo mio, ti vogliamo un bene dell'anima. ❤️
+
+
+<img src="https://cdn.alcestide.com/momo/momo-3.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-4.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-18.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-9.jpg" style="width: 50%">
+<img src="https://cdn.alcestide.com/momo/momo-10.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-11.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-12.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-5.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-19.jpg" style="width: 70%">
+<img src="https://cdn.alcestide.com/momo/momo-and-me.jpg" style="width: 70%">
