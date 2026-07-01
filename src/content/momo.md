@@ -1,6 +1,6 @@
 ---
 title: Momo
-excerpt: "Memories of Fur"
+excerpt: "Una letterina al nostro Momonga, il gattino più buono e bello del mondo"
 date: "30 June 2026"
 ---
 
